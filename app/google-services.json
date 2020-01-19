@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "320190181058",
+    "firebase_url": "https://jobhunter-d7077.firebaseio.com",
+    "project_id": "jobhunter-d7077",
+    "storage_bucket": "jobhunter-d7077.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320190181058:android:9ff12f685e39b5314d955b",
+        "android_client_info": {
+          "package_name": "com.example.jobhunter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320190181058-72c2rjj5itfgkhgibr0mf5rtae671a0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobhunter",
+            "certificate_hash": "f03078167c4002827e9f8b720d5139d0e4a922f5"
+          }
+        },
+        {
+          "client_id": "320190181058-b9252dgn3k7d1a44b15d5h0far1s1s30.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobhunter",
+            "certificate_hash": "9b241a9aed10d55bfbd65532cdaced78ad995fe2"
+          }
+        },
+        {
+          "client_id": "320190181058-gh04pvc179vsvh69a80di2kri6u13b2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobhunter",
+            "certificate_hash": "80c1641ca115cee966123df60ae714c946528313"
+          }
+        },
+        {
+          "client_id": "320190181058-o73rnib1773c3e4ge4rdikekg87uju3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz4kp1L5Ktl3TnT2-_-Jfh6QY0VM6t0fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320190181058-o73rnib1773c3e4ge4rdikekg87uju3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320190181058:android:0e8b830267eacc434d955b",
+        "android_client_info": {
+          "package_name": "com.example.jobhunteradmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "320190181058-qcta8j68o0mdcoi5pecsia3me2so7unf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jobhunteradmin",
+            "certificate_hash": "f03078167c4002827e9f8b720d5139d0e4a922f5"
+          }
+        },
+        {
+          "client_id": "320190181058-o73rnib1773c3e4ge4rdikekg87uju3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz4kp1L5Ktl3TnT2-_-Jfh6QY0VM6t0fI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "320190181058-o73rnib1773c3e4ge4rdikekg87uju3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
