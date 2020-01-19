@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/base1"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dpIV"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/simple_circle"
+            android:src="@drawable/graduation"
+            android:padding="8dp" />
+
+
+        <TextView
+            android:id="@+id/usernameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dpIV"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/arima"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usernameTV"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/crimson"
+            android:text="Post - Admin"
+            android:textColor="@color/gray"
+            android:textSize="13dp" />
+
+
+        <ImageView
+            android:id="@+id/settingsIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="15dp"
+            android:padding="13dp"
+            app:srcCompat="@drawable/setting"
+            android:tint="@color/shiny_blue" />
+
+        <ImageView
+            android:id="@+id/signoutIV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="45dp"
+            android:padding="13dp"
+            app:srcCompat="@drawable/signout"
+            android:tint="@color/shiny_blue" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/jobsRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="30dp">
+
+        <View
+            android:id="@+id/clrback1"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/sharpy_box2"
+            android:backgroundTint="@color/matt_blue" />
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:tint="@color/blue_dark"
+            app:srcCompat="@drawable/job" />
+
+        <TextView
+            android:id="@+id/sclfinderTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/clrback1"
+            android:fontFamily="@font/thin_block"
+            android:text="ADD A JOB "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sclfinderTV"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="45dp"
+            android:layout_toRightOf="@id/clrback1"
+            android:fontFamily="@font/arima"
+            android:text="Provide Details for job vacancy ..."
+            android:textColor="@color/matt_gray"
+            android:textSize="13dp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/matt_blue" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/internshipRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="30dp">
+
+        <View
+            android:id="@+id/clrback2"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/sharpy_box"
+            android:backgroundTint="@color/matt_gray" />
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="55dp"
+            android:padding="10dp"
+            android:tint="@color/gray_dark"
+            app:srcCompat="@drawable/internship" />
+
+        <TextView
+            android:id="@+id/searchTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/thin_block"
+            android:text="SHARE INFO "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/searchTV"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/arima"
+            android:text="Send info to Academic centers ..."
+            android:textColor="@color/matt_gray"
+            android:textSize="13dp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@color/matt_gray" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
